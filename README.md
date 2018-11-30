@@ -7,5 +7,5 @@ docker build . -t dyson
 ```
 
 ```bash
-run -d -v $(pwd)/api-fakes:/api-fakes -P dyson:latest
+docker run -d -v $(pwd)/api-fakes:/api-fakes -P dyson:latest
 ```
